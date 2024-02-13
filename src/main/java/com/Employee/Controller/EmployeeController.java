@@ -65,7 +65,7 @@ public class EmployeeController {
 		return empSer.salaryHike(des);
 	}
 	
-	@GetMapping(value="/maxSalary")
+	@GetMapping(value="/maxslry")
 	public Employee findMaxSalary() {
 		return empSer.findMaxSalary();
 	}
